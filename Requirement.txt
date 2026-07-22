@@ -1,0 +1,6 @@
+pandas 3.0.3
+joblib 1.5.3
+streamlit 1.59.2
+numpy 2.4.5
+scikit-learn version: 1.9.0
+xgboost version: 3.2.0
