@@ -3,10 +3,10 @@ from pandas.io.xml import preprocess_data
 import pandas as pd
 from streamlit.hello.dataframe_demo import data_frame_demo
 
-model_insurance = load('model_insurance.joblib')
-model_insurance_old = load('model_insurance_old.joblib')
-scaler_insurance = load('scaler_insurance.joblib')
-scaler_insurance_old = load('scaler_insurance_old.joblib')
+model_insurance = load('art/model_insurance.joblib')
+model_insurance_old = load('art/model_insurance_old.joblib')
+scaler_insurance = load('art/scaler_insurance.joblib')
+scaler_insurance_old = load('art/scaler_insurance_old.joblib')
 def calculate_normalized_risk(medical_history):
     risk_scores = {
         "diabetes": 6,
